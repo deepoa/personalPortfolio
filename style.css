@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -15,17 +18,14 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 40px;
+  justify-content: space-around;
 }
 
 .UnorderedList {
   display: flex;
-  font-family: "Montserrat", sans-serif;
-  gap: 10rem;
+  gap: 10%;
   color: #979798;
   list-style: none;
-  text-decoration: none;
 }
 .list {
   font-weight: 400;
@@ -84,11 +84,41 @@ body {
 
 body.light {
   background-color: #fff;
-}
-body.dark h1,
-body.dark .support a {
   color: #34353a;
 }
+
 i {
   font-size: 18px;
+}
+.Image {
+  background-image: url(/Assets/macboo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#name {
+  font-family: Great Vibes sans-serif;
+  font-size: 40px;
+  font-family: "Courgette", cursive;
+  color: #ffe26d;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.Paragraph {
+  max-width: 40%;
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+#FirstPara {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #f4d248;
 }
