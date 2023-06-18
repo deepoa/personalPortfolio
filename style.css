@@ -133,11 +133,9 @@ section {
 }
 .skills-content {
   display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
   justify-content: space-between;
-  color: #fff;
-  max-width: 1300px;
-  padding: 0px 80px;
-  margin: auto;
 }
 section {
   padding: 80px 0px;
@@ -152,5 +150,32 @@ section {
   letter-spacing: 1px;
   font-size: 18px;
 }
-.Contact {
+.Column-left-skill {
+  width: 40%;
+}
+.Column-right-skill {
+  width: 60%;
+}
+
+.ImgWidth {
+  width: 20%;
+  height: 120px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  padding: 5px 20px;
+}
+.paraSkills {
+  text-align: justify;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: white;
+  text-align: justify;
+  line-height: 1.6;
+  letter-spacing: 1px;
 }
